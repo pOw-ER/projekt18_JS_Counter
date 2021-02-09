@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section>div {
+  padding: 50px;
+  width: 30%;
+  background-image: linear-gradient(to bottom left, blue, violet );
+  border-radius: 40px;
+}
+section>div div{
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  margin: 5px;
+}
+
+h1,h2{
+  text-align: center;
+}
